@@ -1,0 +1,25 @@
+package senai;
+
+import java.awt.print.Printable;
+
+import javax.swing.JOptionPane;
+
+public class DesafioPlanilha {
+	
+	public static void main(String[] args) {
+		
+		Double a1 = 0.0;
+		Double a2 = 0.0;
+		Double a3 = 0.0;
+		
+		
+		a1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a1"));
+		a2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a2"));
+		a3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a2"));
+		
+		Double total = a1+a2+a3;
+		
+		System.out.println(total);
+	}
+
+}
