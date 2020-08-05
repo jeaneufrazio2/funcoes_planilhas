@@ -1,0 +1,23 @@
+package senai;
+
+import javax.swing.JOptionPane;
+
+public class funcaoMed {
+	
+	public static void main(String[] args) {
+		
+		Double a1 = 0.0;
+		Double a2 = 0.0;
+		Double a3 = 0.0;
+		Double media = 0.0;		
+		
+		a1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a1"));
+		a2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a2 "));
+		a3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a3"));
+		
+		media = (a1 + a2 + a3 / 3);
+		
+		System.out.println("A media dos valores é "+ media);
+		
+	}
+}
