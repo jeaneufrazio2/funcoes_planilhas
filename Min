@@ -1,0 +1,27 @@
+package senai;
+
+import javax.swing.JOptionPane;
+
+public class funcaoMin {
+	
+	public static void main(String[] args) {
+		
+		Double a1 = 0.0;
+		Double a2 = 0.0;
+		Double a3 = 0.0;
+				
+		
+		a1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a1"));
+		a2 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a2 "));
+		a3 = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de a3"));
+		
+		if (a1 < a2 && a1 < a3 ) {
+			System.out.println("O menor valor é: "+ a1);
+		} else if (a2 < a1 && a2 < a3) {
+			System.out.println("O menor valor é: "+ a2);
+		} else {
+			System.out.println("O menor valor é: "+ a3);
+		}
+		
+	}
+}
